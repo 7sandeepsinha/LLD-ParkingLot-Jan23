@@ -1,15 +1,13 @@
 package model;
 
 public class ElectricParkingSlot extends ParkingSlot {
-    private ElectricCharger electriCharger;
-    //create ElectricCharger interface
-    //multiple impl -> TataFastCharger, TataSlowCharger etc.
+    private ElectricCharger electricCharger;
 
-    public ElectricCharger getElectriCharger() {
-        return electriCharger;
+    public ElectricCharger getElectricCharger() {
+        return electricCharger;
     }
 
-    public void setElectriCharger(ElectricCharger electriCharger) {
-        this.electriCharger = electriCharger;
+    public void setElectricCharger(ElectricCharger electricCharger) {
+        this.electricCharger = electricCharger;
     }
 }
